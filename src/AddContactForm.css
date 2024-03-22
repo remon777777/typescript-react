@@ -1,0 +1,32 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the space between form elements */
+    max-width: 400px; /* Adjust based on your preference */
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Adjust based on your preference */
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust button color as needed */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Adjust based on your preference */
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
